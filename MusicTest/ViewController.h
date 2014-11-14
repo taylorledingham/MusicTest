@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <CoreMedia/CoreMedia.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MPMediaPickerControllerDelegate>
 
+- (IBAction)prevButtonPressed:(id)sender;
+- (IBAction)nextButtonPressed:(id)sender;
+- (IBAction)playPauseButtonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *currentSongLabel;
 
 @end
 

@@ -14,6 +14,9 @@
 		901559691A15808E005D35E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901559681A15808E005D35E9 /* Images.xcassets */; };
 		9015596C1A15808E005D35E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9015596A1A15808E005D35E9 /* LaunchScreen.xib */; };
 		901559781A15808E005D35E9 /* MusicTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 901559771A15808E005D35E9 /* MusicTestTests.m */; };
+		901559821A15809A005D35E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901559811A15809A005D35E9 /* AVFoundation.framework */; };
+		901559841A15811F005D35E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901559831A15811F005D35E9 /* CoreMedia.framework */; };
+		901559861A15812B005D35E9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901559851A15812B005D35E9 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		901559711A15808E005D35E9 /* MusicTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901559761A15808E005D35E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		901559771A15808E005D35E9 /* MusicTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTestTests.m; sourceTree = "<group>"; };
+		901559811A15809A005D35E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		901559831A15811F005D35E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		901559851A15812B005D35E9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901559861A15812B005D35E9 /* MediaPlayer.framework in Frameworks */,
+				901559841A15811F005D35E9 /* CoreMedia.framework in Frameworks */,
+				901559821A15809A005D35E9 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,9 @@
 		9015594F1A15808E005D35E9 = {
 			isa = PBXGroup;
 			children = (
+				901559851A15812B005D35E9 /* MediaPlayer.framework */,
+				901559831A15811F005D35E9 /* CoreMedia.framework */,
+				901559811A15809A005D35E9 /* AVFoundation.framework */,
 				9015595A1A15808E005D35E9 /* MusicTest */,
 				901559741A15808E005D35E9 /* MusicTestTests */,
 				901559591A15808E005D35E9 /* Products */,
